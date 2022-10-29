@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+</head>
+<body>
+    
+<body bgcolor="#FFCDBC">
+    <div class="sidebar">
+      <table>
+          <tr>
+              <button style="background-color: #ffffff; scale: 1;font-size: 0.6cm; font-style: italic ; font-family: fantasy; border-color: #EF950A; color: #e05a00;" onclick="document.location='index.html'">RÓLAM
+              </button>
+          </tr>
+          <tr><button style="background-color: #ffffff; scale: 1;font-size: 0.6cm; font-style: italic ; font-family: fantasy; border-color: #EF950A; color: #e05a00;" onclick="document.location='keplink.html'"> Képlinkes
+          </button>
+          </tr>
+          <tr>
+              <button style="background-color: #ffffff; scale: 1;font-size: 0.6cm; font-style: italic ; font-family: fantasy; border-color: #EF950A; color: #e05a00;" onclick="document.location='lista.html'"> LISTÁK
+              </button>
+          </tr>
+          <tr>
+              <button style="background-color: #ffffff; scale: 1;font-size: 0.6cm; font-style: italic ; font-family: fantasy; border-color:#EF950A; color: #e05a00;" onclick="document.location='orarend.html'"> ÓRAREND
+          </tr>
+          <tr>
+              <button style="background-color: #ffffff; scale: 1;font-size: 0.6cm; font-style: italic ; font-family: fantasy; border-color: rgb(240, 48, 0); border-width: 5px; color: #e05a00;" onclick="document.location='pizza.html'"> PIZZA
+              </button>
+            </tr>
+      </table>
+          <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #E17E1E; "><em>PIZZA RENDELÉS</em></h1>
+  
+          <form action="pizza.html">
+              <fieldset>
+                  <legend>Pizza</legend>
+                  Méret:
+                  <br>
+                  <input type="radio" name="kicsi" value="26cm"> 26cm
+                  <br>
+                  <input type="radio" name="közepes" value="34"> 34cm
+                  <br>
+                  <input type="radio" name="nagy" value="52"> 52cm
+                  <br>
+                  <br>
+                  Feltétek:
+                  <br>
+                  <input type="checkbox" name="sajt" id="">  Sajt
+                  <br>
+                  <input type="checkbox" name="sonka" id=""> Sonka
+                  <br>
+                  <input type="checkbox" name="Gomba" id=""> Gomba
+                  <br>
+                  <input type="checkbox" name="Kukorica" id=""> Kukorica
+                  <br>
+                  <input type="checkbox" name="bacon" id=""> Bacon
+                  <br>
+                  <input type="checkbox" name="lilahagyma" id=""> lilahagyma
+                  <br>
+                  <br>
+                  Mennyiség: <input type="number">
+              </fieldset>
+              <fieldset>
+                  <legend>Üdítők</legend>
+                  <table>
+                      <tr>
+                          <td><input type="checkbox"> Coca Cola </td>
+                          <td align="right"><input type="number"> db.</td>
+                          <br>
+                      </tr>
+                          <br>
+                          <td><input type="checkbox"> Coca Cola Zero</td>
+                          <td><input type="number"> db.</td>
+                          <br>
+                      </tr>
+                          <td><input type="checkbox"> Fanta </td>
+                          <td><input type="number"> db.</td>
+                          <br>
+                      </tr>
+                          <td><input type="checkbox"> Xixo Tea </td>
+                          <td><input type="number"> db.</td>
+                          <br>
+                      </tr>
+                          <td><input type="checkbox"> Sprite </td>
+                          <td><input type="number"> db.</td>
+                      </tr>
+                  </table>
+                  <br>
+              </fieldset>
+              <fieldset>
+                  <legend>Vevő adatai</legend>
+                  Név:    <input type="text">
+                  <br>
+                  <br>
+                  Telefonszám: <input type="text">
+                  <br>
+                  <br>
+                  Falu/Város: <input type="text">
+                  <br>
+                  <br>
+                  Utca: <input type="text">
+                  Házszám: <input type="text">
+              </fieldset>
+              <fieldset>
+                  <legend>Végezetül</legend>
+                  Egyéb kivánság:
+                  <br>
+                  <textarea cols=40 rows=4></textarea>
+                  <br>
+                  <input type='reset' name="visszaállítás" value="visszaállítás"> <input type='submit' value="küldés">
+              </fieldset>
+          </form>
+  
+      </div>
+</body>
+</html>
