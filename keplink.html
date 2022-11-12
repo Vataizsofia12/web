@@ -6,27 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zsofi oldala</title>
 </head>
-<body bgcolor="purple">
-    <div class="sidebar">
-        <button style="background-color: aqua;  scale:1 ;font-size: 0.0.6cm; font-style:italic ; font-family:fantasy;" onclick="document.location='index.html'">Rólam
-        </button>
-        <br>
-        <button style="background-color: aqua;  scale:1 ;font-size: 0.0.6cm; font-style:italic ; font-family:fantasy;" onclick="document.location='keplink.html'">Képlink
-        </button>
-        <br>
-        <button style="background-color: aqua;  scale:1 ;font-size: 0.0.6cm; font-style:italic ; font-family:fantasy;" onclick="document.location='lista.html'">Lista
-        </button>
-        <br>
-        <button style="background-color: #ffffff; scale: 1;font-size: 0.6cm; font-style: italic ; font-family: fantasy; color: #e05a00;" onclick="document.location='pizza.html'"> PIZZA
-        </button>
-        <br>
-        <button style="background-color: aqua;  scale:1 ;font-size: 0.0.6cm; font-style:italic ; font-family:fantasy;" onclick="document.location='urlap.html'">Űrlap
-        </button>
-        <br>
+<body bgcolor="pink">
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: aqua;
+        }
         
+        li {
+          float: left;
+        }
         
+        li a {
+          display: block;
+          color:black;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+          background-color: pink;
+        }
+        
+        .active {
+          background-color: pink;
+        }
+        </style>
+        </head>
+        <body>
+        
+      
+          <ul>
+            <li><a href="index.html">Rólam</a> </li>
+            <li><a class="active"
+            href="keplink.html">Képlink</a></li>
+            <li><a href="lista.html">Lista</a>
+            </li>
+            <li><a href="orarend.html">Órarend</a>
+            </li>
+            <li><a href="urlap.html">Pizza</a>
+            </li>
+        </ul>
+      
+    </stlye>
     
-
     <font color="black">
         <h1>Képlinkes feladat</h1>
 

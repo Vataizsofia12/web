@@ -6,40 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista</title>
 </head>
-<body>
-    <div class="sidebar">
-        <button style="background-color: aqua;  scale:1 ;font-size: 0.0.6cm; font-style:italic ; font-family:fantasy;" onclick="document.location='index.html'">Rólam
-        </button>
-        <br>
-        <button style="background-color: aqua;  scale:1 ;font-size: 0.0.6cm; font-style:italic ; font-family:fantasy;" onclick="document.location='keplink.html'">Képlink
-        </button>
-        <br>
-        <button style="background-color: aqua;  scale:1 ;font-size: 0.0.6cm; font-style:italic ; font-family:fantasy;" oncslick="document.location='lista.html'">Lista
-        </button>
-        <br>
-        <button style="background-color: aqua;  scale:1 ;font-size: 0.0.6cm; font-style:italic ; font-family:fantasy;" onclick="document.location='orarend.html'">Órarend
-        </button>
-        <br>
-        <button style="background-color: aqua;  scale:1 ;font-size: 0.0.6cm; font-style:italic ; font-family:fantasy;" onclick="document.location='urlap.html'">Űrlap
-        </button>
-        <br>
-         </div>
+<body bgcolor="pink">
+   
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: aqua;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: black;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+          background-color: pink;
+        }
+        
+        .active {
+          background-color: pink;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <ul>
+          <li><a  href="index.html">Rólam</a></li>
+          <li><a href="keplink.html">Képlink</a></li>
+          <li><a class="active" href="lista.html">Lista</a></li>
+          <li><a href="urlap.html">Pizza</a></li>
+          <li><a href="orarend.html">Órarend</a></li>
+        </ul>
+           
+          
+        </stlye>
+    
+         
          <div class="content">
-            <h1 style="color: ;red">Zsófi</h1>
-            <h2 style="color: #000;">Zsófi</h2>
+            <h1 style="color: ;red"> Vatai Zsófi</h1>
+           
+            <p style="background-color:#000; color:black; width:300px;"> A kedvenc tantárgyaim:</p>
 
-            <p style="background-color: ;#000;color:white; width:300px;"> A kedvenc tantárgyaim:</p>
+            <ul style="color:black ;">
+                <li type="circle">Matematika</li>
+                <li type="circle">IKT</li>
+                <li type="circle">Irodalom</li>
+                <div class="sidebar">
+            </ul>
 
-            <ol style="color:aqua">
-                <li>IKT</li>
-                <li>MATEK</li>
-                <li>TESI</li>
-            </ol>
-
-            <p style="background-color: ;#000,;color:white; width: 300px;"> A kedvenc szabadidős tevékenységeim:</p>
-            <ul style="color: ;#000">
-                <li type="circle">olvasás</li>
-                <li type="circle">kirándulás</li>
+            <p style="background-color: ;black,;color:black; width: 300px;"> A kedvenc szabadidős tevékenységeim:</p>
+            <ul style="color:black ;">
+                <li type="circle">Olvasás</li>
+                <li type="circle">Kirándulás</li>
+                <li type="circle">Gépezés</li>
+                <div class="sidebar">
+            </ul>
+            </div>
+                   
+                    
+            
     
 
 </body>
