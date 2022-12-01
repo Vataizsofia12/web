@@ -30,7 +30,7 @@ div.nav ul {
     background-color: pink;
   }
 
-  div.evszak {
+.evszak {
     margin: 1%;
     float: left;
     transition: .8s;
@@ -39,7 +39,7 @@ div.nav ul {
     font-weight: bolder;
 }
 
-div.evszak img {
+.evszak img {
     border: 3px solid aqua;
     width: 200px;
     height: 200px;
