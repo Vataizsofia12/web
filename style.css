@@ -29,3 +29,23 @@ div.nav ul {
   .active {
     background-color: pink;
   }
+
+  div.evszak {
+    margin: 1%;
+    float: left;
+    transition: .8s;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+div.evszak img {
+    border: 3px solid aqua;
+    width: 200px;
+    height: 200px;
+
+}
+
+div.evszak:hover {
+    transform: scale(1.1);
+}

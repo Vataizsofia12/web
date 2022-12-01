@@ -7,102 +7,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Évszakok</title>
-    <style>
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: aqua;
-        }
-
-        li {
-            float: left;
-        }
-
-        li a {
-            display: block;
-            color: black;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        li a:hover:not(.active) {
-            background-color: pink;
-        }
-
-        .active {
-            background-color: pink;
-        }
-
-
-        div {
-            margin: 1%;
-            float: left;
-            transition: .8s;
-            text-align: center;
-            font-size: x-large;
-            font-weight: bolder;
-        }
-
-        img {
-            border: 3px solid aqua;
-            width: 200px;
-            height: 200px;
-
-        }
-
-        div:hover {
-            transform: scale(1.1);
-        }
-
-        body{
-            background-color: pink;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body >
 
-    <ul>
-        <li><a href="index.html">Rólam</a></li>
-        <li><a href="keplink.html">Képlink</a></li>
-        <li><a href="lista.html">Lista</a></li>
-        <li><a href="orarend.html">Órarend</a></li>
-        <li><a href="urlap.html">Pizza</a></li>
-        <li><a class="active" href="evszakok.html">Évszakok</a></li>
-      </ul>
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">Rólam</a></li>
+            <li><a href="keplink.html">Képlink</a></li>
+            <li><a href="lista.html">Lista</a></li>
+            <li><a href="orarend.html">Órarend</a></li>
+            <li><a href="urlap.html">Pizza</a></li>
+            <li><a class="active" href="evszakok.html">Évszakok</a></li>
+          </ul>
+    </div>
 
-    <div>
+    <div class="evszak">
         <img src="img/kép/tavasz.jpg.jpg" alt="tavasz">
         <p>Tavasz</p>
     </div>
 
-    <div>
+    <div class="evszak">
         <img src="img/kép/nyar.jpg.jpg" alt="nyar">
         <p>Nyár</p>
 
     </div>
-    <div>
+    <div class="evszak">
         <img src="img/kép/osz.jpg.jpg" alt="osz">
         <p>Ősz</p>
 
     </div>
-    <div>
+    <div class="evszak">
         <img src="img/kép/tel.jpg.jpg" alt="tel">
         <p>Tél</p>
-
+    </div>
+    
         <footer>
             <p>Copyright:Vatai Zsófia</p>
             <p><a href="mailto:vataizs@kkszki.hu">vataizs@kkszki.hu</a></p>
           </footer>
-       
 
-    </stlye>
-
-        
-
-       
+</body>
+</html>
 
 
