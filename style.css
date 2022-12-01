@@ -1,0 +1,31 @@
+body {
+    background-color: pink;
+}
+
+div.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:aqua;
+  }
+  
+  div.nav li {
+    float: left;
+  }
+  
+  div.nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  div.nav li a:hover:not(.active) {
+    background-color:pink;
+  }
+  
+  .active {
+    background-color: pink;
+  }
